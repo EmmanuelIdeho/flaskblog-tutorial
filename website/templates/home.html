@@ -1,11 +1,4 @@
 <!DOCTYPE html>
-{% extends "base.html" %}
+{% extends "post_div.html" %}
 
 {% block title%}Home{% endblock %}
-
-{% block content %}
-    {% for post in posts %}
-        {{ post.text }}
-        {{ post.author }}
-    {% endfor %}
-{% endblock %}
